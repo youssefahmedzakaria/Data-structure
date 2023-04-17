@@ -1,7 +1,8 @@
+#ifndef DATASTRUCTURE_ASSIGNMENT_1_SORTINGS_H
+#define DATASTRUCTURE_ASSIGNMENT_1_SORTINGS_H
+
 #include <iostream>
 #include <algorithm>
-
-
 
 class sortings {
 
@@ -35,3 +36,6 @@ public:
     void countSort(T arr[], int size);
 
 };
+
+#endif 
+
