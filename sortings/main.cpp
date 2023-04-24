@@ -15,11 +15,16 @@ int main() {
     for(int i = 0; i < n; i++) {
         cout << arr[i] << " ";
     }
-
-    // Insertion Sort
-    s.insertionSort(arr, n);
+    
+    //s.insertionSort(arr, n);
+    //s.selectionSort(arr, n);
+    s.bubbleSort(arr, n);
+    //s.shellSort(arr, n);
+    //s.mergeSort(arr, 0, n-1);
+    //s.quickSort(arr, 0, n);
+    //s.countSort(arr, n);
     cout << "\nAfter Insertion Sort: ";
     for(int i = 0; i < n; i++) {
         cout << arr[i] << " ";
     }
- }
+}
