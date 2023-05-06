@@ -9,7 +9,7 @@ using namespace std;
 
 
 int main() {
-    queue <int>q;
+    queue <int> q;
     q.enqueue(15);
     q.enqueue(20);
     q.enqueue(50);
