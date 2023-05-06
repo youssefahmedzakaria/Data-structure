@@ -1,9 +1,3 @@
-//
-// Created by youssef zakaria on 3/31/2023.
-//
-
-#ifndef ASSIGNMENT_2_SINGLELINKEDLIST_H
-#define ASSIGNMENT_2_SINGLELINKEDLIST_H
 #include <iostream>
 using namespace std;
 
@@ -52,4 +46,3 @@ public:
 };
 
 
-#endif //ASSIGNMENT_2_SINGLELINKEDLIST_H

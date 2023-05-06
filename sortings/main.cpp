@@ -15,7 +15,7 @@ int main() {
     for(int i = 0; i < n; i++) {
         cout << arr[i] << " ";
     }
-    
+
     //s.insertionSort(arr, n);
     //s.selectionSort(arr, n);
     s.bubbleSort(arr, n);
